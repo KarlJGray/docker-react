@@ -9,3 +9,5 @@ before_install:
 
 script:
   - docker run -e CI=true karlgray/docker-react npm run test
+
+# Comment to trigger Travis CI build
